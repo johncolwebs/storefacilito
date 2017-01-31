@@ -1,0 +1,120 @@
+
+// Fonts
+@import url(//fonts.googleapis.com/css?family=Raleway:300,400,600);
+@import url(//fonts.googleapis.com/css?family=Roboto:300,400,500,700);
+@import url(//fonts.googleapis.com/icon?family=Material+Icons);
+
+// Variables
+@import "variables";
+
+// Bootstrap
+@import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
+
+// Bootstrap X-editable
+// @import "bootstrap-editable.css";
+
+// Bootstrap Material Design
+@import "node_modules/bootstrap-material-design/dist/css/bootstrap-material-design";
+@import "node_modules/bootstrap-material-design/dist/css/ripples";
+
+// App Personal Styles
+img#previewCover{
+  // border-radius: 100%;
+  max-width: 100px;
+  max-height: 100px;
+}
+.absolute{
+  position: absolute;
+}
+.no-margin{
+  margin: 0px;
+}
+.big-padding{
+  padding: 30px;
+}
+.large-padding{
+  padding: 10px 15px;
+}
+.label-pill {
+  padding-right: .6em;
+  padding-left: .6em;
+  border-radius: 10rem;
+}
+.no-padding{
+  padding: 0px;
+}
+.blue-grey{
+  background-color: #37474F;
+}
+.inline-block{
+  display: inline-block;
+}
+.floating{
+  position: fixed;
+  bottom: 2em;
+  right: 2em;
+  z-index: 100;
+}
+.white{
+  background-color: #FFF;
+}
+.white-text{
+  color: white;
+}
+.table{
+  background-color: white;
+}
+.navbar{
+  margin-bottom: 0px;
+}
+// Home
+.products-container{
+  .product{
+    margin-top: 1em;
+  }
+}
+
+// carrito
+.top-space{
+  margin-top: 1em;
+}
+// order status
+.creado{
+  background-color: #d4e157;
+  border-radius: .5em;
+}
+// orders
+.sale-data{
+  padding: 1em;
+  text-align: center;
+  border-right: solid 1px #222;
+
+  span {
+    display: block;
+    font-size: 2.2em;
+    color: #3f51b5;
+  }
+}
+
+// product page
+.product{
+  width: 600px;
+  max-width: 100%;
+  padding: 1em;
+  position: relative;
+
+  h1 {
+    padding-bottom: 10px;
+    border-bottom: solid 1px;
+  }
+
+  .actions {
+    right: 1em;
+    top: 10px;
+  }
+
+  &-cover{
+    width: 100%;
+    max-height: 200px;
+  }
+}
